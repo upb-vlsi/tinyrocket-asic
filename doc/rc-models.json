@@ -1,0 +1,9 @@
+{
+  "process": "SG13CMOS5L",
+  "origin": "PR #1237 overlay on frozen PDK",
+  "sha256": {
+    "sg13cmos5l.MAX.rules": "0991c2da960a49b77a79b0dcaea104be85f82a8681a85cd41aeb1efb9147eeea",
+    "sg13cmos5l.MIN.rules": "c1b1436025480e942674966013b52e9684903563f33747483eb23f30964b1970",
+    "sg13cmos5l.TYP.rules": "b39091ac353d9582a1f113d918c397a0d63b991a947f3966c165888956224f03"
+  }
+}

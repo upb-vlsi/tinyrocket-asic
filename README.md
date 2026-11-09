@@ -15,9 +15,26 @@ group and the **Digital Integrated Systems and Circuits** group at
 
 ## Project Status
 
-**Implementation and verification are in progress. Source publication is being
-prepared.** This repository currently provides a project overview; it does not
-yet contain the design sources or a reproducible build flow.
+**Minimum MPW submission prepared: `IHP__RVSoC6706`.** The release GDS and
+matching netlists use the top cell `RVSoC6706`. This repository retains its
+existing name, `tinyrocket-asic`; the IHP submodule request uses the generated
+submission identifier.
+
+The minimum delivery follows IHP's instructions of 9 November 2026. Full source
+publication and additional documentation will follow. This delivery is not a
+claim of complete signoff or a reproducible source-to-GDS build.
+
+- [Submission metadata](doc/info.json)
+- [Release notes and files](release/v.1.0.0/ReleaseNote.md)
+- [Physical-verification status](doc/Verification.md)
+
+Validate the release files and their provenance with:
+
+```bash
+python3 scripts/validate_submission.py
+```
+
+This checks submission-file consistency, not electrical or physical signoff.
 
 The project targets the **November 2026 IHP SG13CMOS5L MPW shuttle**. The design
 has not yet completed tapeout signoff or silicon validation. Features and

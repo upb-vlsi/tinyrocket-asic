@@ -1,0 +1,10 @@
+*.gds.gz binary
+*.sdf.gz binary
+*.spef.gz binary
+*.def.gz binary
+*.pdf binary
+*.png binary
+*.bin binary
+*.img binary
+*.elf binary
+*.tgz binary

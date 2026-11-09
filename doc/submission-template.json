@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/IHP-GmbH/Open-Silicon-MPW",
+  "revision": "60c8c2eb3ac7e9ad4ab131b245e3d7662f9d63ca",
+  "generator": "gen_structure.py IHP RVSoC",
+  "generated_identifier": "IHP__RVSoC6706",
+  "exception": "Existing repository URL retained; top name and GDS filename follow generated identifier."
+}

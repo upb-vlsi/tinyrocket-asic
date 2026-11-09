@@ -1,0 +1,9 @@
+{
+  "mode": "full",
+  "markers": 50,
+  "rules": {
+    "Pad.fR_TM1": 50
+  },
+  "passed": false,
+  "waivers": []
+}

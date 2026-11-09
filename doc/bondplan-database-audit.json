@@ -1,0 +1,549 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "pin": 1,
+      "net": "jtag_TCK",
+      "side": "west",
+      "center_um": [
+        105.0,
+        2215.0
+      ],
+      "signal_type": "CLOCK",
+      "instance": "iocell_jtag_TCK_pad",
+      "master": "sg13cmos5l_IOPadIn"
+    },
+    {
+      "pin": 2,
+      "net": "jtag_TMS",
+      "side": "west",
+      "center_um": [
+        105.0,
+        1965.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_jtag_TMS_pad",
+      "master": "sg13cmos5l_IOPadIn"
+    },
+    {
+      "pin": 3,
+      "net": "jtag_TDI",
+      "side": "west",
+      "center_um": [
+        105.0,
+        1715.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_jtag_TDI_pad",
+      "master": "sg13cmos5l_IOPadIn"
+    },
+    {
+      "pin": 4,
+      "net": "jtag_TDO",
+      "side": "west",
+      "center_um": [
+        105.0,
+        1465.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_jtag_TDO_pad",
+      "master": "sg13cmos5l_IOPadTriOut30mA"
+    },
+    {
+      "pin": 5,
+      "net": "VDD",
+      "side": "west",
+      "center_um": [
+        105.0,
+        1215.0
+      ],
+      "signal_type": "POWER",
+      "instance": "qfn32_vdd_05",
+      "master": "sg13cmos5l_IOPadVdd"
+    },
+    {
+      "pin": 6,
+      "net": "VSS",
+      "side": "west",
+      "center_um": [
+        105.0,
+        965.0
+      ],
+      "signal_type": "GROUND",
+      "instance": "qfn32_vss_06",
+      "master": "sg13cmos5l_IOPadVss"
+    },
+    {
+      "pin": 7,
+      "net": "IOVSS",
+      "side": "west",
+      "center_um": [
+        105.0,
+        715.0
+      ],
+      "signal_type": "GROUND",
+      "instance": "qfn32_iovss_07",
+      "master": "sg13cmos5l_IOPadIOVss"
+    },
+    {
+      "pin": 8,
+      "net": "gpio_0_0",
+      "side": "west",
+      "center_um": [
+        105.0,
+        465.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_gpio_0_0_pad",
+      "master": "sg13cmos5l_IOPadInOut30mA"
+    },
+    {
+      "pin": 9,
+      "net": "clock_uncore",
+      "side": "south",
+      "center_um": [
+        465.0,
+        105.0
+      ],
+      "signal_type": "CLOCK",
+      "instance": "iocell_clock_uncore_pad",
+      "master": "sg13cmos5l_IOPadIn"
+    },
+    {
+      "pin": 10,
+      "net": "reset_io",
+      "side": "south",
+      "center_um": [
+        715.0,
+        105.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_reset_io_pad",
+      "master": "sg13cmos5l_IOPadIn"
+    },
+    {
+      "pin": 11,
+      "net": "custom_boot",
+      "side": "south",
+      "center_um": [
+        965.0,
+        105.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_custom_boot_pad",
+      "master": "sg13cmos5l_IOPadIn"
+    },
+    {
+      "pin": 12,
+      "net": "uart_0_rxd",
+      "side": "south",
+      "center_um": [
+        1215.0,
+        105.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_uart_0_rxd_pad",
+      "master": "sg13cmos5l_IOPadIn"
+    },
+    {
+      "pin": 13,
+      "net": "uart_0_txd",
+      "side": "south",
+      "center_um": [
+        1465.0,
+        105.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_uart_0_txd_pad",
+      "master": "sg13cmos5l_IOPadTriOut30mA"
+    },
+    {
+      "pin": 14,
+      "net": "VDD",
+      "side": "south",
+      "center_um": [
+        1715.0,
+        105.0
+      ],
+      "signal_type": "POWER",
+      "instance": "qfn32_vdd_14",
+      "master": "sg13cmos5l_IOPadVdd"
+    },
+    {
+      "pin": 15,
+      "net": "IOVDD",
+      "side": "south",
+      "center_um": [
+        1965.0,
+        105.0
+      ],
+      "signal_type": "POWER",
+      "instance": "qfn32_iovdd_15",
+      "master": "sg13cmos5l_IOPadIOVdd"
+    },
+    {
+      "pin": 16,
+      "net": "VSS",
+      "side": "south",
+      "center_um": [
+        2215.0,
+        105.0
+      ],
+      "signal_type": "GROUND",
+      "instance": "qfn32_vss_16",
+      "master": "sg13cmos5l_IOPadVss"
+    },
+    {
+      "pin": 17,
+      "net": "spi_0_cs_0",
+      "side": "east",
+      "center_um": [
+        2495.0,
+        465.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_spi_0_cs_0_pad",
+      "master": "sg13cmos5l_IOPadTriOut30mA"
+    },
+    {
+      "pin": 18,
+      "net": "spi_0_sck",
+      "side": "east",
+      "center_um": [
+        2495.0,
+        715.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_spi_0_sck_pad",
+      "master": "sg13cmos5l_IOPadTriOut30mA"
+    },
+    {
+      "pin": 19,
+      "net": "spi_0_dq_0",
+      "side": "east",
+      "center_um": [
+        2495.0,
+        965.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_spi_0_dq_0_pad",
+      "master": "sg13cmos5l_IOPadInOut30mA"
+    },
+    {
+      "pin": 20,
+      "net": "spi_0_dq_1",
+      "side": "east",
+      "center_um": [
+        2495.0,
+        1215.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_spi_0_dq_1_pad",
+      "master": "sg13cmos5l_IOPadInOut30mA"
+    },
+    {
+      "pin": 21,
+      "net": "VSS",
+      "side": "east",
+      "center_um": [
+        2495.0,
+        1465.0
+      ],
+      "signal_type": "GROUND",
+      "instance": "qfn32_vss_21",
+      "master": "sg13cmos5l_IOPadVss"
+    },
+    {
+      "pin": 22,
+      "net": "IOVDD",
+      "side": "east",
+      "center_um": [
+        2495.0,
+        1715.0
+      ],
+      "signal_type": "POWER",
+      "instance": "qfn32_iovdd_22",
+      "master": "sg13cmos5l_IOPadIOVdd"
+    },
+    {
+      "pin": 23,
+      "net": "IOVSS",
+      "side": "east",
+      "center_um": [
+        2495.0,
+        1965.0
+      ],
+      "signal_type": "GROUND",
+      "instance": "qfn32_iovss_23",
+      "master": "sg13cmos5l_IOPadIOVss"
+    },
+    {
+      "pin": 24,
+      "net": "spi_0_cs_1",
+      "side": "east",
+      "center_um": [
+        2495.0,
+        2215.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_spi_0_cs_1_pad",
+      "master": "sg13cmos5l_IOPadTriOut30mA"
+    },
+    {
+      "pin": 25,
+      "net": "spi_0_dq_2",
+      "side": "north",
+      "center_um": [
+        2215.0,
+        2495.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_spi_0_dq_2_pad",
+      "master": "sg13cmos5l_IOPadInOut30mA"
+    },
+    {
+      "pin": 26,
+      "net": "spi_0_dq_3",
+      "side": "north",
+      "center_um": [
+        1965.0,
+        2495.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_spi_0_dq_3_pad",
+      "master": "sg13cmos5l_IOPadInOut30mA"
+    },
+    {
+      "pin": 27,
+      "net": "clock_tap",
+      "side": "north",
+      "center_um": [
+        1715.0,
+        2495.0
+      ],
+      "signal_type": "CLOCK",
+      "instance": "iocell_clock_tap_pad",
+      "master": "sg13cmos5l_IOPadTriOut30mA"
+    },
+    {
+      "pin": 28,
+      "net": "VDD",
+      "side": "north",
+      "center_um": [
+        1465.0,
+        2495.0
+      ],
+      "signal_type": "POWER",
+      "instance": "qfn32_vdd_28",
+      "master": "sg13cmos5l_IOPadVdd"
+    },
+    {
+      "pin": 29,
+      "net": "spi_0_cs_2",
+      "side": "north",
+      "center_um": [
+        1215.0,
+        2495.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_spi_0_cs_2_pad",
+      "master": "sg13cmos5l_IOPadTriOut30mA"
+    },
+    {
+      "pin": 30,
+      "net": "IOVDD",
+      "side": "north",
+      "center_um": [
+        965.0,
+        2495.0
+      ],
+      "signal_type": "POWER",
+      "instance": "qfn32_iovdd_30",
+      "master": "sg13cmos5l_IOPadIOVdd"
+    },
+    {
+      "pin": 31,
+      "net": "IOVSS",
+      "side": "north",
+      "center_um": [
+        715.0,
+        2495.0
+      ],
+      "signal_type": "GROUND",
+      "instance": "qfn32_iovss_31",
+      "master": "sg13cmos5l_IOPadIOVss"
+    },
+    {
+      "pin": 32,
+      "net": "gpio_0_1",
+      "side": "north",
+      "center_um": [
+        465.0,
+        2495.0
+      ],
+      "signal_type": "SIGNAL",
+      "instance": "iocell_gpio_0_1_pad",
+      "master": "sg13cmos5l_IOPadInOut30mA"
+    }
+  ],
+  "power_sources": {
+    "VDD": [
+      {
+        "pin": 5,
+        "net": "VDD",
+        "side": "west",
+        "center_um": [
+          105.0,
+          1215.0
+        ],
+        "signal_type": "POWER",
+        "instance": "qfn32_vdd_05",
+        "master": "sg13cmos5l_IOPadVdd"
+      },
+      {
+        "pin": 14,
+        "net": "VDD",
+        "side": "south",
+        "center_um": [
+          1715.0,
+          105.0
+        ],
+        "signal_type": "POWER",
+        "instance": "qfn32_vdd_14",
+        "master": "sg13cmos5l_IOPadVdd"
+      },
+      {
+        "pin": 28,
+        "net": "VDD",
+        "side": "north",
+        "center_um": [
+          1465.0,
+          2495.0
+        ],
+        "signal_type": "POWER",
+        "instance": "qfn32_vdd_28",
+        "master": "sg13cmos5l_IOPadVdd"
+      }
+    ],
+    "VSS": [
+      {
+        "pin": 6,
+        "net": "VSS",
+        "side": "west",
+        "center_um": [
+          105.0,
+          965.0
+        ],
+        "signal_type": "GROUND",
+        "instance": "qfn32_vss_06",
+        "master": "sg13cmos5l_IOPadVss"
+      },
+      {
+        "pin": 16,
+        "net": "VSS",
+        "side": "south",
+        "center_um": [
+          2215.0,
+          105.0
+        ],
+        "signal_type": "GROUND",
+        "instance": "qfn32_vss_16",
+        "master": "sg13cmos5l_IOPadVss"
+      },
+      {
+        "pin": 21,
+        "net": "VSS",
+        "side": "east",
+        "center_um": [
+          2495.0,
+          1465.0
+        ],
+        "signal_type": "GROUND",
+        "instance": "qfn32_vss_21",
+        "master": "sg13cmos5l_IOPadVss"
+      }
+    ],
+    "IOVDD": [
+      {
+        "pin": 15,
+        "net": "IOVDD",
+        "side": "south",
+        "center_um": [
+          1965.0,
+          105.0
+        ],
+        "signal_type": "POWER",
+        "instance": "qfn32_iovdd_15",
+        "master": "sg13cmos5l_IOPadIOVdd"
+      },
+      {
+        "pin": 22,
+        "net": "IOVDD",
+        "side": "east",
+        "center_um": [
+          2495.0,
+          1715.0
+        ],
+        "signal_type": "POWER",
+        "instance": "qfn32_iovdd_22",
+        "master": "sg13cmos5l_IOPadIOVdd"
+      },
+      {
+        "pin": 30,
+        "net": "IOVDD",
+        "side": "north",
+        "center_um": [
+          965.0,
+          2495.0
+        ],
+        "signal_type": "POWER",
+        "instance": "qfn32_iovdd_30",
+        "master": "sg13cmos5l_IOPadIOVdd"
+      }
+    ],
+    "IOVSS": [
+      {
+        "pin": 7,
+        "net": "IOVSS",
+        "side": "west",
+        "center_um": [
+          105.0,
+          715.0
+        ],
+        "signal_type": "GROUND",
+        "instance": "qfn32_iovss_07",
+        "master": "sg13cmos5l_IOPadIOVss"
+      },
+      {
+        "pin": 23,
+        "net": "IOVSS",
+        "side": "east",
+        "center_um": [
+          2495.0,
+          1965.0
+        ],
+        "signal_type": "GROUND",
+        "instance": "qfn32_iovss_23",
+        "master": "sg13cmos5l_IOPadIOVss"
+      },
+      {
+        "pin": 31,
+        "net": "IOVSS",
+        "side": "north",
+        "center_um": [
+          715.0,
+          2495.0
+        ],
+        "signal_type": "GROUND",
+        "instance": "qfn32_iovss_31",
+        "master": "sg13cmos5l_IOPadIOVss"
+      }
+    ]
+  },
+  "sha256": {
+    "/scratch/larluc/chipyard/vlsi/experiments/sg13cmos5l-signoff-20261031/strongio30-v1/bondplan-connections.csv": "6710b637ecd2a5216ef2db0a0b8008ef1ca43801cb73bf547f8cabe21cf7eea4",
+    "/scratch/larluc/chipyard/vlsi/experiments/sg13cmos5l-signoff-20261031/reset-debug-20261104/conservative-route-pruned-v6/post_write_design": "1ad8ffe8bcbfad9ac93c39e594b77b3531fb89d92c842ea6e8fb399c09f7a42d"
+  },
+  "assembly_authorized": false,
+  "scope": "OpenDB identities/locations/nets vs existing 32-pin CSV; not package leadframe/wirebond qualification or GDS LVS"
+}

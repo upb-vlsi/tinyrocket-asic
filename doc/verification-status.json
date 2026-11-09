@@ -1,0 +1,41 @@
+{
+  "original_gds_sha256": "251dbb35b9e3d5139a41b2e88ae9211d29e937df8b5a2edcd9470bbfc09021ce",
+  "renamed_release_identity": "doc/release-identity.json",
+  "drc": {
+    "minimum": {
+      "mode": "minimum",
+      "markers": 0,
+      "rules": {},
+      "passed": true,
+      "waivers": []
+    },
+    "density": {
+      "mode": "density",
+      "markers": 0,
+      "rules": {},
+      "passed": true,
+      "waivers": []
+    },
+    "antenna": {
+      "mode": "antenna",
+      "markers": 0,
+      "rules": {},
+      "passed": true,
+      "waivers": []
+    },
+    "full": {
+      "mode": "full",
+      "markers": 50,
+      "rules": {
+        "Pad.fR_TM1": 50
+      },
+      "passed": false,
+      "waivers": []
+    }
+  },
+  "raw_LVS_passed": false,
+  "waivers": [],
+  "qualified_floating_fill_timing": false,
+  "fabrication_authorization": false,
+  "scope": "Selected physical-verification status; not a complete signoff declaration."
+}

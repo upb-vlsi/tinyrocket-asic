@@ -1,0 +1,26 @@
+{
+  "source_top": "ChipTop",
+  "release_top": "RVSoC6706",
+  "source_gds_uncompressed_sha256": "251dbb35b9e3d5139a41b2e88ae9211d29e937df8b5a2edcd9470bbfc09021ce",
+  "release_gds_uncompressed_sha256": "64eb1650ad15218098c0b4808ead2ecb2f9301e059f3402e002073ae071126ec",
+  "release_gds_gzip_sha256": "b3b758bcc713a44c5388b1e9c51c58bc52d9c47d7a68430f15226b7954431bea",
+  "changed_GDS_records": 1,
+  "changed_record": "STRNAME of root cell",
+  "reverse_transform_byte_identical": true,
+  "geometry_changed": false,
+  "gds_timestamps_changed": false,
+  "properties_changed": false,
+  "netlists": {
+    "release/v.1.0.0/netlist/RVSoC6706.lvs.v": {
+      "source_sha256": "8e231fa895dfdaf44c670177bbd9ef266ce887821a509b668f11c8e8af1e7ab4",
+      "sha256": "c435b20bb7834482285adb7e0f5d7ed4ccd65ffbe27b56b869cdec7552216060",
+      "change": "top module declaration only"
+    },
+    "release/v.1.0.0/netlist/RVSoC6706.sim.v": {
+      "source_sha256": "a58c35939c2d030ee048098fb8e0c68028ebd82dfd823db8708a6235d5eac9f5",
+      "sha256": "930daf08b6eab8c0a09276ae3ac9083d67700305b2051fce2f170bfff8b96940",
+      "change": "top module declaration only"
+    }
+  },
+  "scope": "Identity transform, not a new DRC/LVS run or signoff waiver."
+}

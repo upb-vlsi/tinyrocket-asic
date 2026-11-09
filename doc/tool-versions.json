@@ -1,0 +1,9 @@
+{
+  "OpenROAD": "26Q3",
+  "Yosys": "0.62, git 7326bb7d6",
+  "VCS": "X-2025.06-SP2",
+  "Magic": "8.3 revision 684",
+  "Netgen": "1.5.316",
+  "KLayout": "0.30.12 (container executable version checked on 9 November 2026)",
+  "source": "Existing run logs and container; no proprietary executables included"
+}

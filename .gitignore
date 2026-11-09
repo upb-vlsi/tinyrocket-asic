@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+validation-results/
+reruns/
+*.vcd
+*.saif
+simv*
+csrc/
+.env

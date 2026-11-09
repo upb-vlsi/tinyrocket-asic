@@ -1,0 +1,48 @@
+{
+  "name": "RVSoC6706",
+  "design_type": "D",
+  "technology": "IHP",
+  "unique_id": "6706",
+  "license": "Apache-2.0",
+  "trl": 4,
+  "sealring_x": 2600.0,
+  "sealring_y": 2600.0,
+  "repository": "https://github.com/upb-vlsi/tinyrocket-asic",
+  "pdk_version": "0e540d9421d8b3f905ead0261136e2225be1666a",
+  "process": "SG13CMOS5L",
+  "dependencies": {
+    "IHP-Open-PDK": {
+      "repository": "https://github.com/IHP-GmbH/IHP-Open-PDK",
+      "revision": "0e540d9421d8b3f905ead0261136e2225be1666a",
+      "overlay": "Native CMOS5L OpenRCX rules from PR #1237; exact file hashes in doc/rc-models.json"
+    },
+    "SRAMs": {
+      "masters": ["RM_IHPSG13_1P_4096x8_c4", "RM_IHPSG13_1P_64x22_c2", "RM_IHPSG13_1P_1024x32_c2"],
+      "note": "Six SRAM instances; macro GDS is included in the release hierarchy. Full source/dependency package follows separately."
+    }
+  },
+  "tools": {
+    "OpenROAD": "26Q3",
+    "Yosys": "0.62, git 7326bb7d6",
+    "VCS": "X-2025.06-SP2",
+    "KLayout": "See archived DRC logs and doc/tool-versions.json",
+    "Magic": "See doc/tool-versions.json",
+    "Netgen": "See doc/tool-versions.json"
+  },
+  "top_cell_name": "RVSoC6706",
+  "release": {
+    "version": "v.1.0.0",
+    "gds": "release/v.1.0.0/gds/RVSoC6706.gds.gz",
+    "netlist": "release/v.1.0.0/netlist/RVSoC6706.lvs.v",
+    "doc": "release/v.1.0.0/doc"
+  },
+  "category": "Digital",
+  "subcategory": "RiscV based digital SoC",
+  "package": "QFN32",
+  "registered_area_mm2": 6.76,
+  "dimensions_unit": "um",
+  "dimensions_note": "2600 x 2600 um measured GDS/sealring bounding box; layer-specific bounds are recorded in doc/layout-inspection.json.",
+  "verification_status": "doc/verification-status.json",
+  "delivery_scope": "Minimum submission requested by IHP on 9 November 2026. Additional documentation and sources to follow. This is not a declaration that all signoff checks pass.",
+  "repository_name_note": "Generated submission identifier is IHP__RVSoC6706; hosted in the existing tinyrocket-asic repository. Requested submodule path uses the generated identifier."
+}
